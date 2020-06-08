@@ -23,9 +23,11 @@ const clearItems = () => {
 };
 
 const clickFired = () => {
+if(item) {
 setNewitem ((preVal) => {
      return([...preVal,item])
  });
+}
 };
 
 const clearButton= () => {
